@@ -1,0 +1,51 @@
+.cart {
+    margin: auto;
+    max-width: 800px;
+    text-align: center;
+    width: 90%;
+}
+
+.books {
+    box-sizing: border-box;
+    display: grid;
+    justify-items: center;
+    gap: 40px;
+    margin: auto;
+    width: 100%;
+}
+  
+.cartItem {
+    box-shadow: 0 0 8px #aaa;
+    display: flex; 
+    gap: 20px;
+    padding: 20px;
+    width: calc(100% - 40px);
+}
+  
+.cartItem .description { width: 100%; }
+  
+.countHandler input {
+    font-weight: bolder;
+    text-align: center;
+    width: 40px;
+}
+
+.checkout { padding: 20px 0; }
+
+.hover { cursor: pointer; }
+
+.cartItem:hover { box-shadow: 0 0 16px #888; }
+
+@media screen and (max-width: 575px) {
+    .cartItem { flex-direction: column; }
+    
+    .cartItem img {
+        margin: auto;
+        max-width: 300px;;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .cartItem img { height: 300px; }
+}

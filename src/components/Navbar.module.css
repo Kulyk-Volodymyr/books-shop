@@ -1,0 +1,53 @@
+.wrapper {
+    background-color: rgb(30, 30, 30);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1200px;
+    width: 90%;
+}
+
+.logo {
+    height: 50px;
+    display: block;
+}
+  
+.links {
+    align-items: center;
+    display: flex;
+}
+  
+.links a {
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.links img {
+    height: 24px;
+    padding-top: 6px;
+}
+
+.booksQty {
+    color: rgb(255, 223, 0);
+    font-size: 16px;
+    margin-left: -4px;
+}
+
+@media screen and (max-width: 360px) {
+    .shopItem {
+        display: none;
+    }
+}

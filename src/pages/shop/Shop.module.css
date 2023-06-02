@@ -1,0 +1,83 @@
+.shop { padding: 40px 0; }
+
+.books {
+    display: grid;
+    gap: 40px;
+    margin: auto;
+    max-width: 1200px;
+    width: 90%;
+}
+
+.book {
+    box-shadow: 0 0 8px #aaa;
+    display: flex; 
+}
+
+.bookContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.imgContainer {
+    height: fit-content;
+    overflow: hidden;
+    position: relative;
+}
+
+.imgContainer img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    transition-duration: 400ms;
+}
+  
+.description {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.bookContainer:hover { box-shadow: 0 0 16px #888; }
+
+.bookContainer:hover .imgContainer img {
+    transform: scale(1.1);
+    transition-duration: 400ms;
+}
+
+.bookContainer:hover .description p:first-child {
+    color: blue;
+    transition-duration: 400ms;
+}
+
+.imgContainer:hover, .description p:first-child { cursor: pointer; }
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 299px) {
+    .books { grid-template-columns: 1fr; }
+    .imgContainer { height: 240px; }
+}
+
+@media screen and (min-width: 300px) and (max-width: 575px) {
+    .books { grid-template-columns: 1fr; }
+}
+  
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .books { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .books { grid-template-columns: repeat(3, 1fr); }
+}
+  
+@media screen and (min-width: 992px) {
+    .books { grid-template-columns: repeat(4, 1fr); }
+}

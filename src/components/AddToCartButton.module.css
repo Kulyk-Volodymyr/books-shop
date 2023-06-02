@@ -1,0 +1,57 @@
+.addBtn {
+    cursor: pointer;
+    height: 40px;
+    max-width: 160px;
+    overflow: hidden;
+    width: 80%;
+}
+
+.addBtnContainer {
+    background-color: rgb(140, 140, 255);
+    height: 100px;
+    position: relative;
+    transform: translateY(0px);
+    transition: all;
+    transition-duration: 300ms;
+    width: 100%;
+}
+
+.addBtnItem1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.addBtnItem2 {
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 40px;
+    width: 100%;
+}
+
+.addBtnItem3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 40px;
+    left: 0;
+    position: absolute;
+    top: 60px;
+    width: 100%;
+}
+
+.addBtnItem3 img {
+    height: 24px;
+}
+
+.addBtn:hover .addBtnContainer {
+    background-color: blue;
+    transform: translateY(-60px);
+}

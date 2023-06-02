@@ -1,0 +1,52 @@
+.main {
+    margin: 40px auto;
+    max-width: 1200px;
+    width: 90%;
+}
+
+.section1 { display: block; }
+
+.image {
+    border: 1px solid gray;
+    max-width: 400px;
+    width: 100%;
+}
+
+.image img {
+    display: block;
+    width: 100%;
+}
+
+.section1 h1 { margin-bottom: 40px; }
+
+.addButton { margin: 30px 0; }
+
+.description { line-height: 1.5rem; }
+
+.section2 { display: block; }
+
+.button { text-align: center; }
+
+@media screen and (max-width: 768px) {
+    .image { margin: auto; }
+
+    .section1 h1 {
+        margin-top: 40px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image {
+        float: left;
+        margin-right: 60px;
+        margin-bottom: 20px;
+    }
+
+    .section1 h1 { margin-top: 0; }
+}
