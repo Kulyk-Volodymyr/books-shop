@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/books-shop/static/css/main.eea27488.css",
+    "main.js": "/books-shop/static/js/main.94a53751.js",
+    "static/media/design_patterns.jpg": "/books-shop/static/media/design_patterns.075c0448c34bdaf2847f.jpg",
+    "static/media/responsive_web_design.jpg": "/books-shop/static/media/responsive_web_design.eb4246cad51b6fb4c654.jpg",
+    "static/media/book_of_recursion.jpg": "/books-shop/static/media/book_of_recursion.cf338252c6704d7e5107.jpg",
+    "static/media/head_first.jpg": "/books-shop/static/media/head_first.27a295d4053feb7c8ba3.jpg",
+    "static/media/the_definitive_guide.jpg": "/books-shop/static/media/the_definitive_guide.6492d8678bf0dc52286e.jpg",
+    "static/media/typescript.jpg": "/books-shop/static/media/typescript.0019bf949599c5ad6c1d.jpg",
+    "static/media/learning_react.jpg": "/books-shop/static/media/learning_react.6a8303343aee7b44937c.jpg",
+    "static/media/learn_js_quickly.jpg": "/books-shop/static/media/learn_js_quickly.b6c5d6e9fb40730d87d0.jpg",
+    "static/media/node_and_express.jpg": "/books-shop/static/media/node_and_express.4b5aea4d5ede8a8382e2.jpg",
+    "static/media/logo.png": "/books-shop/static/media/logo.f4484960a7b6955696a1.png",
+    "static/media/js_quickly.jpg": "/books-shop/static/media/js_quickly.beaff0b83ba5918a0883.jpg",
+    "static/media/you_dont_know.jpg": "/books-shop/static/media/you_dont_know.607b8738fc92eeb1b88a.jpg",
+    "static/media/road_to_react.jpg": "/books-shop/static/media/road_to_react.8fd9052783f3d6a7c38e.jpg",
+    "index.html": "/books-shop/index.html",
+    "main.eea27488.css.map": "/books-shop/static/css/main.eea27488.css.map",
+    "main.94a53751.js.map": "/books-shop/static/js/main.94a53751.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eea27488.css",
+    "static/js/main.94a53751.js"
+  ]
+}
